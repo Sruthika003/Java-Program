@@ -1,0 +1,23 @@
+Difference between static, local and instance variable
+
+Static variable:
+ => A variable that is declared as static and defined outside any method. It cannot be local.
+ => Memory allocated only once when the class is loaded.
+ => Initialized only once when the class is loaded.
+ => They can be called using class name or using any of the object instances.
+ => Only one copy exists, shared among all instances of the class.
+ 
+ Local Variable:
+ => Local variables declared inside a method,constructor or bloack.
+ => Memory allocated when the method or block is executed.
+ => Must be initialized before use.
+ => A local variable must be initialized before you try to use it, else compiler will complain.
+ => We can create a copy of a local variable by assigning its value to a new variable within the same scope.
+ 
+ Instance Variable:
+ => Instance variable declared inside a class but outside a method, constructor or any block.
+ => Memory allocated each time a new instance is created.
+ => Initialized each time a new instance is created.
+ => They can be called using any of the object instances. 
+ => Each instance has its own copy of the variable.
+ 
